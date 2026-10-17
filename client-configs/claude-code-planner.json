@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "workspace": {
+      "type": "http",
+      "url": "https://YOUR-DOMAIN.ngrok-free.app/mcp",
+      "headers": { "Authorization": "Bearer ${MCP_PLANNER_TOKEN}" }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "workspace-builder": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://YOUR-DOMAIN.ngrok-free.app/mcp",
+        "--header", "Authorization:${AUTH_HEADER}"
+      ],
+      "env": { "AUTH_HEADER": "Bearer PASTE_BUILDER_TOKEN_HERE" }
+    }
+  }
+}
